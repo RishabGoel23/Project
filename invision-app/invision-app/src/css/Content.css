@@ -1,0 +1,91 @@
+.content-container {
+  margin-right: auto;
+  margin-left: auto;
+  max-width: 85%;
+  padding: 30px;
+}
+
+.jumbotron {
+  background-color: #f8fffe;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+.jumbotron p {
+  max-width: 600px;
+}
+
+h4 {
+  margin: 0;
+  color: teal;
+}
+
+.card {
+  width: 30%;
+  background-color: #fff;
+  display: inline-block;
+  border-radius: 5px;
+  margin: 1.6%;
+  text-decoration: none;
+  color: black;
+  text-align: left;
+  transition: 250ms all ease-in-out;
+}
+
+.card:hover {
+  box-shadow: 0 0 10px black;
+  transform: scale(1.01);
+}
+
+.card:hover .card-title {
+  color: teal;
+}
+
+.card-body {
+  padding: 40px;
+}
+
+.card-title {
+  margin: 0;
+  display: inline-block;
+  padding-left: 10px;
+}
+.card-title span {
+  line-height: 40px;
+}
+
+footer {
+  text-align: center;
+  background-color: #fff;
+}
+
+.fa {
+  font-size: 36px;
+  color: #979797;
+  margin: 20px 25px;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 60px;
+  height: auto;
+}
+
+.copyright {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+footer ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+footer li {
+  display: inline;
+}
+
+footer li a {
+  text-align: center;
+  padding: 14px 16px;
+}
